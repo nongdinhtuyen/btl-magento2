@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+  <preference for="Hoanganh\ApiGetProduct\Api\ProductRepositoryInterface"
+           type="Hoanganh\ApiGetProduct\Model\ProductRepository"/>
+  <preference for="Hoanganh\ApiGetProduct\Api\Data\ProductInterface"
+           type="Hoanganh\ApiGetProduct\Model\Data\Product"/>
+</config>
